@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Karma:wght@300&display=swap");
+
+body {
+  background-color: darkslategray;
+}
+h1 {
+  font-family: "Fugaz One", cursive;
+  font-size: 6.5vw;
+  color: goldenrod;
+}
+
+body p {
+  font-family: "Karma", serif;
+  font-size: 2.5vw;
+  color: darkgoldenrod;
+  font-style: italic;
+}
