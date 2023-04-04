@@ -1,0 +1,10 @@
+#hoverEffect {
+  transition: 0.7s;
+  text-decoration: underline;
+}
+
+#hoverEffect:hover {
+  background-color: teal;
+  color: darkgoldenrod;
+  transition: 0.7s;
+}
