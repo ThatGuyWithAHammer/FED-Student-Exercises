@@ -1,0 +1,71 @@
+#buttonContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25rem;
+}
+
+#modalButton {
+  display: block;
+  background-color: rgb(61, 138, 61);
+  color: #fefefe;
+  border: none;
+  border-radius: 1rem;
+  width: 7rem;
+  height: 2.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 1px solid darkgreen;
+  transition: 0.4s;
+}
+
+#modalButton:hover {
+  box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.596);
+  transition: 0.4s;
+}
+
+#modalButton:active {
+  box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.596), inset 2px 2px 8px 1px black;
+  transition: 0.1s;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(40, 40, 43, 0.795);
+}
+
+.modalContent {
+  background-color: #1d1d1dd8;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+.closeModal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.closeModal:hover,
+.closeModal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
