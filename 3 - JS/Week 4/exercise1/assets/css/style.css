@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+}
+.password {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
